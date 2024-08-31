@@ -19,7 +19,8 @@ body {
     justify-content: space-between;
     padding: 30px;
     border-radius: 10px;
-    width: 50%;
+    width: 400px;
+    max-height: 90%;
     background-color: hsl(10, 79%, 65%);
     margin-bottom: 20px;
     color: #fff;
@@ -51,7 +52,8 @@ img {
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
-    width: 50%;
+    width: 400px;
+    max-height: 90%;
 }
 
 
@@ -98,32 +100,9 @@ p {
     color:hwb(0 51% 49%);
 }
 
-@media screen and (max-width: 768px) {
-    #top-container {
-        width: 70%;
-        padding: 20px;
-    }
 
-    #main-container {
-        width: 70%;
-        
-    }
 
-    h1 {
-        font-size: 20px;
-    }
-
-    h2 {
-        margin-top: 5px;
-        font-size: 30px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 460px) {
     #top-container {
         width: 95%;
         padding: 20px;
@@ -148,6 +127,7 @@ p {
     }
 
 }
+
 
 
 
